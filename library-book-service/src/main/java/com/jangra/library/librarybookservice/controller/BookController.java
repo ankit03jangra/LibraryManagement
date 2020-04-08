@@ -41,7 +41,6 @@ public class BookController {
 		logger.info("Entering into getAllBooks method...");
 		logger.debug("debug message");
 		logger.info("Logging info");
-		logger.debug("Logging debug");
 		return dao.getAllBooks();
 	}
 	
