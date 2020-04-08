@@ -40,7 +40,6 @@ public class BookController {
 	public ResponseEntity<List<Book>> getAllBooks(){
 		logger.info("Entering into getAllBooks method...");
 		logger.debug("debug message");
-		logger.info("Logging info");
 		return dao.getAllBooks();
 	}
 	
